@@ -12,8 +12,38 @@ body{
     background-color: #1B1726;
 }
 
+
+.ads1, .ads2 {
+    width: 158px;;
+    position: fixed; 
+    top: 151px;
+}
+
+.ads1 {
+    left: 61px;
+}
+
+.ads2 {
+    right: 61px;
+}
+
+.cerrar-ads {
+    
+}
+
+.ads2.hiden {
+    display: none;
+}
+
+
+.ads-img {
+    position: relative;
+}
+
+
+
 img{
-    max-width: 100px;
+    max-width: 300px;
 }
 
 .container {
@@ -337,4 +367,13 @@ input {
     }
     
 }
+
+
+
+
+
+
+
+
+
 
